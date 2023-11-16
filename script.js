@@ -46,7 +46,6 @@ buttonEqual.addEventListener("click", () =>{
         array = [];
     }
     let result = operationResult(valueAux1, signalAux, valueAux2);
-    //alert("buttonEqual value1: " + valueAux1 + " value2: " + valueAux2 + "array[0] " + array[0] + " signalAux: " + signalAux);
 
     array = [];
     valueAux1 = result;
@@ -68,13 +67,11 @@ function isEqual(){
         array = [];
     }
     let result = operationResult(valueAux1, signalAux, valueAux2);
-    //alert("isEqual value1: " + valueAux1 + " value2: " + valueAux2 + "array[0] " + array[0] + " signalAux: " + signalAux);
 
     array = [];
     valueAux1 = result;
     valueAux2 = 0;
     signalAux = "";
-    //alert("value1: " + valueAux1 + " value2: " + valueAux2 + "array[0] " + array[0] + " signalAux: " + signalAux);
 }
 
 
@@ -90,7 +87,6 @@ function displayArray(value){
 
     array.push(value);
     signalAux = array[0];
-    //alert("displayArray value1: " + valueAux1 + " value2: " + valueAux2 + "array[0] " + array[0] + " signalAux: " + signalAux);
     if(valueAux1 != 0){
         display.innerHTML = valueAux1 + array.join("");
     }
